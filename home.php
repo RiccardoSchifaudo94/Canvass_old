@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <?php
 
@@ -17,7 +16,7 @@ include 'configura.php';
 
     </head>
 
-    <body class="uk-height-1-1" background="../img/stone-arch.jpg" width="100%" style="background-repeat:no-repeat;background-size:cover;">
+    <body class="uk-height-1-1" background="../img/survey2.jpg" width="100%" style="background-repeat:no-repeat;background-size:cover;">
      <?php
 
             if(isset($_POST['token_registrati'])){

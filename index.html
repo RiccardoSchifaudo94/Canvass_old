@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -156,6 +156,23 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     <script type="text/javascript">
+        //script per integrare smomthscroll per rendere fluido lo scorrimento della pagina 
+        //tramite voci del sotto menu dell'header o della sidebar
+          $('a[href*=#]').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        && location.hostname == this.hostname) {
+        var $target = $(this.hash);
+        $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+        if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body').animate({scrollTop: targetOffset}, 1000);
+        return false;}
+        }
+       });
+
+
+      </script>s	
 
 </body>
 
