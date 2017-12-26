@@ -58,7 +58,7 @@ textarea {
     padding: 8px 6px;
     font-size: 16px;
     box-shadow: inset 2px 2px 2px #c1c1c1;
-    border: 1px solid #07d;
+    border:2px solid #07d;
     border-radius: 2px;
     margin-top: 10px;
     min-height: 40px;
@@ -95,6 +95,11 @@ label {
     font-size: 16px;
     background-color: #35b3ee;
 }
+.uk-button-primary:disabled{
+    background-color:#dedede!important;
+    border:1px solid #818181!important;
+    color:#818181;
+}
 .uk-button-danger {
     color: #fff;
     padding: 3px 15px;
@@ -107,22 +112,45 @@ label {
     border: 1px solid #ef0c0c
 }
 .uk-panel-box {
-    padding: 15px;
+    padding:0px 0px 15px;
     background: #fff;
     color: #444;
     font-family: "Lato";
-    border: 1px solid #00a8e6;
+    border-bottom:1px solid #00a8e6;
     box-shadow: 2px 4px 2px #dedede;
     font-weight: 300;
+    margin-top:59px;
+}
+.uk-panel-box h2{
+    background-color:#059;
+    color:#fff;
+    font-family:"Lato";
+    font-weight:300;
+    padding:5px 0px;
 }
 .uk-article {
     background-color: #fff;
-    padding: 16px 25px 10px;
-    border: 1px solid #00a8e6;
+    padding: 0px 0px 10px;
+    border-bottom:1px solid #00a8e6;
     box-shadow: 2px 2px 2px #c1c1c1;
     font-family: "Lato";
     font-weight: 400;
     color: #000;
+}
+.uk-article h1{
+    background-color:#059;
+    color:#fff;
+    font-family:"Lato";
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:10px;
+    font-weight:300;
+}
+.uk-article h2, .uk-article p{
+    padding:0px 20px;
+    font-weight:400;
+    color:#000;
+    font-family:"Lato"; 
 }
 ul.uk-subnav ~ .post_block,
 ul.uk-subnav ul + div ~ .post_block {
@@ -137,6 +165,18 @@ ul.uk-subnav ul + div ~ .post_block {
     font-weight: 400;
     font-family: "Lato";
     padding-top: 30px;
+}
+.uk-subnav-pill li {
+    background-color: #fff;
+    border-right: 2px solid #059;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    box-shadow: 4px 4px 2px #dedede;
+}
+.uk-subnav{
+    margin-left:20px;
 }
 /*ul.uk-subnav ~ .post_block h2 {
     display: block;
