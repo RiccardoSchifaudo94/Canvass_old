@@ -178,6 +178,33 @@ ul.uk-subnav ul + div ~ .post_block {
 .uk-subnav{
     margin-left:20px;
 }
+.uk-grid{
+    padding:0 5px;
+}
+.uk-navbar-toggle{
+    color:#fff;
+    font-size:24px;
+}
+.uk-nav-offcanvas>li>a{
+    color:#fff;
+    border-bottom: 1px solid #00a8e6;
+    font-weight:300;
+    font-family:"Lato";
+    transition:0.6s;
+    font-size:16px;
+}
+#offcanvas > div > ul > li > a:hover{
+    background-color:#00a8e6;
+    padding-left:40px;
+}
+.uk-offcanvas-bar{
+    background-color:#059;
+}
+@media screen and (max-width:468px){
+    .uk-article h1{
+        font-size:16px;
+    }
+}
 /*ul.uk-subnav ~ .post_block h2 {
     display: block;
     width: 100%;
