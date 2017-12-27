@@ -472,7 +472,7 @@ if($_SESSION['ID_controllo']==1 AND $row_ruolo['ID_ruolo']<3)
 
             
 
-            if($_POST['token_rimuovi_link'])
+            if(isset($_POST['token_rimuovi_link']))
 
             {
 

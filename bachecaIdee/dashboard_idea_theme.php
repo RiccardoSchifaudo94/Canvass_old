@@ -1170,7 +1170,7 @@ if($_SESSION['ID_controllo']==1)
 
 
 
-        <div class="uk-grid post_block">
+        <div class="uk-grid">
 
         <div class="uk-width-medium-1-6 uk-width-small-1-6"></div> 
 
@@ -1306,7 +1306,7 @@ if($_SESSION['ID_controllo']==1)
 
                                <!-- Project One -->
 
-                              <div class="uk-grid post_block">
+                              <div class="uk-grid post_block_2">
 
                                 <div class="uk-width-medium-1-10 uk-width-small-1-10"></div>
 
@@ -1656,7 +1656,7 @@ if($_SESSION['ID_controllo']==1)
 
                                <!-- Project One -->
 
-                              <div class="uk-grid post_block">
+                              <div class="uk-grid">
 
                                 <div class="uk-width-medium-1-10 uk-width-small-1-10"></div>
 

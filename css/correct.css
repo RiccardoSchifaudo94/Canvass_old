@@ -5,6 +5,12 @@ body{
 	background-color:#f5f5f5;
     min-height:1100px;
 }
+table{
+    border-color:transparent!important;
+} 
+.uk-table {
+    border-collapse:unset!important;
+}
 .uk-navbar{
 	background-color: #00a8e6!important;
     min-height: 60px;
@@ -49,6 +55,9 @@ thead {
 }
 tbody tr {
     border-bottom: 1px solid;
+}
+.post_block b,.post_block h4, .post_block h2, h2{
+    color: #000;
 }
 input:not([type]).uk-form-large,
 input[type].uk-form-large, 
@@ -145,6 +154,7 @@ label {
     padding-top:5px;
     padding-bottom:10px;
     font-weight:300;
+    font-size:24px;
 }
 .uk-article h2, .uk-article p{
     padding:0px 20px;
@@ -153,9 +163,10 @@ label {
     font-family:"Lato"; 
 }
 ul.uk-subnav ~ .post_block,
-ul.uk-subnav ul + div ~ .post_block {
+ul.uk-subnav ul + div ~ .post_block,
+.post_block_2{
     background-color: #fff;
-    padding: 10px 20px 25px;
+    padding: 10px 20px 25px!important;
     border-top: 2px solid #059;
     border-bottom: 2px solid #0091ca;
     box-shadow: 2px 2px 2px #c1c1c1;
@@ -169,6 +180,7 @@ ul.uk-subnav ul + div ~ .post_block {
 .uk-subnav-pill li {
     background-color: #fff;
     border-right: 2px solid #059;
+    border-left: 2px solid #00a8e6;
     padding: 10px 15px;
     font-size: 16px;
     font-weight: 400;
@@ -199,6 +211,16 @@ ul.uk-subnav ul + div ~ .post_block {
 }
 .uk-offcanvas-bar{
     background-color:#059;
+}
+.correct_btn_search{
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.uk-alert-success,.uk-alert-warning,.uk-alert-danger,.uk-alert-info{
+    border: 1px solid;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px #c1c1c1;
+    padding: 15px;
 }
 @media screen and (max-width:468px){
     .uk-article h1{
