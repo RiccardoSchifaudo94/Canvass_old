@@ -33,7 +33,7 @@ table{
 }
 .uk-navbar-nav>li.uk-open>a, 
 .uk-navbar-nav>li:hover>a, 
-.uk-navbar-nav>li>a:focus {
+.uk-navbar-nav>li>a:focus{
     color: #f5f5f5;
     background-color: #35b3ee;
 }
@@ -56,7 +56,11 @@ thead {
 tbody tr {
     border-bottom: 1px solid;
 }
-.post_block b,.post_block h4, .post_block h2, h2{
+.post_block b,
+.post_block h4, 
+.post_block h2, 
+.post_block_2 b,.post_block_2 h4, .post_block_2 h2,
+h2{
     color: #000;
 }
 input:not([type]).uk-form-large,
@@ -67,7 +71,7 @@ textarea {
     padding: 8px 6px;
     font-size: 16px;
     box-shadow: inset 2px 2px 2px #c1c1c1;
-    border:2px solid #07d;
+    border: 1px solid #059;
     border-radius: 2px;
     margin-top: 10px;
     min-height: 40px;
@@ -103,6 +107,7 @@ label {
     box-shadow: 2px 4px 4px #c1c1c1;
     font-size: 16px;
     background-color: #35b3ee;
+    margin-bottom: 15px;
 }
 .uk-button-primary:disabled{
     background-color:#dedede!important;
@@ -119,6 +124,9 @@ label {
     font-size: 16px;
     background-color: #da223d;
     border: 1px solid #ef0c0c
+}
+font{
+    margin-left:40px;
 }
 .uk-panel-box {
     padding:0px 0px 15px;
@@ -177,6 +185,16 @@ ul.uk-subnav ul + div ~ .post_block,
     font-family: "Lato";
     padding-top: 30px;
 }
+.uk-table td {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid #444;
+    border-bottom: 0px;
+}
+.uk-table th {
+    border: 1px solid #059;
+    border-bottom: 0px;
+}
 .uk-subnav-pill li {
     background-color: #fff;
     border-right: 2px solid #059;
@@ -186,6 +204,13 @@ ul.uk-subnav ul + div ~ .post_block,
     font-weight: 400;
     margin-right: 10px;
     box-shadow: 4px 4px 2px #dedede;
+}
+.uk-subnav-pill li a{
+    color:#000;
+}
+.uk-subnav-pill li a i{
+    font-size:20px;
+    margin-right:5px;
 }
 .uk-subnav{
     margin-left:20px;
@@ -199,11 +224,19 @@ ul.uk-subnav ul + div ~ .post_block,
 }
 .uk-nav-offcanvas>li>a{
     color:#fff;
-    border-bottom: 1px solid #00a8e6;
+    border-bottom: 1px solid #fff;
     font-weight:300;
     font-family:"Lato";
     transition:0.6s;
     font-size:16px;
+}
+.uk-nav-offcanvas>li>a:hover {
+    background-color: #00A8E5!important;
+    padding-left: 30px;
+}
+.uk-overflow-container td{
+    border:0px!important;
+    background-color:#fff!important;
 }
 #offcanvas > div > ul > li > a:hover{
     background-color:#00a8e6;
@@ -221,6 +254,11 @@ ul.uk-subnav ul + div ~ .post_block,
     border-radius: 2px;
     box-shadow: 2px 2px 2px #c1c1c1;
     padding: 15px;
+}
+.uk-alert.uk-alert-danger p, 
+.uk-alert-danger strong, 
+.uk-alert-danger .uk-close {
+    color: #da223d;
 }
 @media screen and (max-width:468px){
     .uk-article h1{
