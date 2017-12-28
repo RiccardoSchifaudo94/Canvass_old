@@ -582,7 +582,7 @@ if($_SESSION['ID_controllo']==1)
 
 
 
-             <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">    
+             <div class="uk-margin-large-bottom">    
 
 
 

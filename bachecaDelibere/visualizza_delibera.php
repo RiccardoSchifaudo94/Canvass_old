@@ -596,7 +596,7 @@ if($row_ruolo['ID_ruolo']<=2)
 
 
 
-             <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">    
+             <div class="uk-margin-large-bottom">    
 
 
 

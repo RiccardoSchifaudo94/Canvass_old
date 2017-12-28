@@ -107,7 +107,6 @@ label {
     box-shadow: 2px 4px 4px #c1c1c1;
     font-size: 16px;
     background-color: #35b3ee;
-    margin-bottom: 15px;
 }
 .uk-button-primary:disabled{
     background-color:#dedede!important;
@@ -244,6 +243,9 @@ ul.uk-subnav ul + div ~ .post_block,
 }
 .uk-offcanvas-bar{
     background-color:#059;
+}
+.uk-offcanvas-bar .uk-button-primary{
+    box-shadow:0px 0px 0px;
 }
 .correct_btn_search{
     margin-bottom:20px;
