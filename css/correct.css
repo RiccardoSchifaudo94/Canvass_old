@@ -14,9 +14,9 @@ table{
 .uk-navbar{
 	background-color: #00a8e6!important;
     min-height: 60px;
-    box-shadow: 4px 4px 4px #818181;
+    box-shadow: 4px 4px 4px #dedede;
     padding: 20px 20px 0px;
-    border-bottom: 1px solid #0091ca;
+    border-bottom: 2px solid #0091ca;
     margin-top:-20px;
 }
 .uk-navbar-brand{
@@ -46,6 +46,7 @@ table{
 }
 .uk-dropdown-navbar li a{
     color:#f5f5f5;
+    font-size:12px;
 }
 thead {
     border: 1px solid #0091ca;
@@ -95,7 +96,7 @@ label {
     border-radius: 2px;
     border: 1px solid #659f13;
     box-shadow: 2px 4px 4px #c1c1c1;
-    font-size: 16px;
+    font-size: 14px;
 }
 .uk-button-primary {
     color: #fff;
@@ -105,7 +106,7 @@ label {
     border-radius: 2px;
     border: 1px solid #0091ca;
     box-shadow: 2px 4px 4px #c1c1c1;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #35b3ee;
 }
 .uk-button-primary:disabled{
@@ -120,12 +121,16 @@ label {
     font-family: "Lato";
     border-radius: 2px;
     box-shadow: 2px 4px 4px #c1c1c1;
-    font-size: 16px;
+    font-size: 14px;
     background-color: #da223d;
     border: 1px solid #ef0c0c
 }
 font{
     margin-left:40px;
+}
+td font, 
+.uk-offcanvas-bar font{
+    margin-left:0px!important;
 }
 .uk-panel-box {
     padding:0px 0px 15px;
@@ -262,26 +267,43 @@ ul.uk-subnav ul + div ~ .post_block,
 .uk-alert-danger .uk-close {
     color: #da223d;
 }
+.uk-comment-list {
+    border-top: 2px solid #059;
+    border-bottom: 2px solid #0091ca;
+    padding: 15px 20px;
+    box-shadow: 2px 2px 2px #dedede;
+    color: #000;
+    overflow-y: auto;
+    height: 150px;
+    background-color: #f5f5f5;
+}
+.uk-comment{
+    background-color:#fff;
+    border:1px solid #c1c1c1;
+    box-shadow:2px 4px 2px #dedede;
+    padding:10px;
+}
+.uk-comment-title {
+    color: #059;
+}
+.uk-comment-meta {
+    color: #0091ca;
+}
+.uk-comment-avatar {
+    margin-right: 15px;
+    float: left;
+    border: 1px solid #999;
+}
+.uk-badge {
+    border-radius: 50%;
+    padding-top: -4px;
+    padding: 2px 6px;
+    text-align: center;
+    box-shadow: 2px 2px 4px #0091ca;
+    font-family: Arial;
+}
 @media screen and (max-width:468px){
     .uk-article h1{
         font-size:16px;
     }
 }
-/*ul.uk-subnav ~ .post_block h2 {
-    display: block;
-    width: 100%;
-    position: absolute;
-    height: 30px;
-    background-color: #0091ca;
-    margin-top: -45px;
-    margin-left: -535px;
-    max-width: 820px;
-    color: #fff;
-    padding-top: 0px;
-    font-weight: 300;
-    font-family: "Lato";
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    box-shadow: 2px 2px 2px #818181;
-}*/
