@@ -1375,7 +1375,7 @@ if($_SESSION['ID_controllo']==1)
         </div><!-- chiudi il container della pagina html--> 
 
 <?php
-
+        include dirname(__FILE__)."/../include/components/footer.php";
 }
 
 else

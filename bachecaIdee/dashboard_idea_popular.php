@@ -1605,7 +1605,7 @@ if($row_ruolo['ID_ruolo']<=2)
         </div><!-- chiudi il container della pagina html--> 
 
 <?php
-
+        include dirname(__FILE__)."/../include/components/footer.php";
 }
 
 else

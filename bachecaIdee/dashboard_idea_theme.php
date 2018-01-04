@@ -3917,7 +3917,7 @@ $(document).ready(function(){
 
 
 <?php
-
+   include dirname(__FILE__)."/../include/components/footer.php";
 }
 
 else
