@@ -671,7 +671,7 @@ if($_SESSION['ID_controllo']==1 AND $row_ruolo['ID_ruolo']<10)
         </div><!-- chiudi il container della pagina html--> 
 
 <?php
-
+       include dirname(__FILE__)."/../include/components/footer.php";
 }
 
 else

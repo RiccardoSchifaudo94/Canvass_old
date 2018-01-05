@@ -26,9 +26,10 @@
 }
 .CONTRAST .uk-navbar-brand{
 	font-size:24px!important;
-    margin-left:20px;
+    padding-left:20px;
 }
-.CONTRAST .uk-navbar-nav>li>a,.uk-navbar-brand{
+.CONTRAST .uk-navbar-nav>li>a,
+.CONTRAST .uk-navbar-brand{
 	color:#e7ea00;
 }
 .CONTRAST .uk-navbar-nav>li>a{
@@ -263,16 +264,21 @@
     margin-bottom:20px;
     margin-left:20px;
 }
-.CONTRAST .uk-alert-success,.uk-alert-warning,.uk-alert-danger,.uk-alert-info{
-    border: 1px solid;
+.CONTRAST .uk-alert-success,
+.CONTRAST .uk-alert-warning,
+.CONTRAST .uk-alert-danger,
+.CONTRAST .uk-alert-info{
+    border: 1px solid #000;
     border-radius: 2px;
-    box-shadow: 2px 2px 2px #c1c1c1;
+    box-shadow: 0px 0px 0px #c1c1c1;
     padding: 15px;
+    background-color: #818181;
+    color: #e7ea00;
 }
 .CONTRAST .uk-alert.uk-alert-danger p, 
 .CONTRAST .uk-alert-danger strong, 
 .CONTRAST .uk-alert-danger .uk-close {
-    color: #da223d;
+    color:#e7ea00;
 }
 .CONTRAST .uk-comment-list {
     border-top: 2px solid #1a1a1a;
@@ -343,6 +349,10 @@
 }
 .CONTRAST .footer .uk-button-primary{
     box-shadow:0px 0px 0px;
+}
+.CONTRAST .uk-alert-success {
+    background: #444;
+    color: #e7ea00;
 }
 @media screen and (max-width:468px){
     .CONTRAST .uk-article h1{

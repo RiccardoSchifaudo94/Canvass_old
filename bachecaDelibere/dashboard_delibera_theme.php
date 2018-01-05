@@ -1332,7 +1332,6 @@ if($row_ruolo['ID_ruolo']<=2)
 
                <?php
 
-               include dirname(__FILE__)."/../include/components/footer.php";
 
             }//token cerca
 

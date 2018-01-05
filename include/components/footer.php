@@ -49,9 +49,4 @@
 		</div>	
 	</div>				
 </div>
-<script type="text/javascript">
-	function enable_contrast(){
-		$("body").toggleClass("CONTRAST");
-		$("link").append("<link rel='stylesheet' href='../css/contrast.css'>");
-	}
-</script>
+<script src="../js/footer.js"></script>
