@@ -12,7 +12,7 @@
 		$(".btn_contrast").text("Abilita contrasto");
 		//alert("not set");
 	}
-
+	
 	function enable_contrast(){
 		
 		if(!sessionStorage.getItem("session_contrast")){
